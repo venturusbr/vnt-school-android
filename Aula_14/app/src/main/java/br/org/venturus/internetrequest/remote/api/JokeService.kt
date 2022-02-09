@@ -17,6 +17,6 @@ internal class JokeService {
     }
 
     private companion object {
-        private const val BASE_URL = "https://official-joke-api.appspot.com/"
+        private const val BASE_URL = "https://joke.deno.dev/"
     }
 }

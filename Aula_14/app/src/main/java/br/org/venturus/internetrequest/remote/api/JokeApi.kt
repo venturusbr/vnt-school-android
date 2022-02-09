@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 internal interface JokeApi {
 
-    @GET("/random_joke")
+    @GET("/")
     suspend fun getRandomJoke(): JokeResponse
 }
